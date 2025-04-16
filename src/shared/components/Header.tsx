@@ -38,7 +38,7 @@ const Header: React.FC = () => {
                 <div className={`w-full lg:flex items-center justify-between gap-4 ${menuOpen ? "flex" : "hidden"} lg:flex-row flex-col mt-3 lg:mt-0`}>
                     <div className={`flex ${menuOpen && 'flex-col'} items-center gap-3 w-full lg:w-auto`}>
                         <div className="relative flex items-center bg-[#242426] hover:bg-[#404044] rounded-full px-5 py-2.5 w-full md:w-auto">
-                            <input type="text" placeholder="Search store" className="w-full md:w-auto text-sm pl-6 outline-0" />
+                            <input type="text" placeholder="Search store" className="w-full text-sm pl-6 outline-0" />
                             <FaSearch size={15} className="absolute left-3 top-1/2 transform -translate-y-1/2" />
                         </div>
                         <nav className="flex flex-col lg:flex-row gap-3 text-sm text-center lg:text-left">
