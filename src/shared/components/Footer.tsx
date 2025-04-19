@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
                             <li><Link to='/cart' className="text-gray-400 hover:text-white font-medium tracking-wide duration-300">Cart</Link></li>
                         </ul>
                     </div>
-                    <div className="w-full md:w-1/3">
+                    <div className="w-full md:w-1/3"> 
                         <h2 className="text-xl font-bold mb-3">Follow Us</h2>
                         <div className="flex space-x-4">
                             <a href="https://www.facebook.com/epicgames" target="_blank" className="text-gray-400 hover:text-white duration-300">

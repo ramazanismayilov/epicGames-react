@@ -5,7 +5,7 @@ import logo from '../../assets/images/favicon.png';
 import { LuGlobe } from "react-icons/lu";
 import { FaBarsStaggered } from "react-icons/fa6";
 
-const Header: React.FC = () => {
+const Header: React.FC = () => { 
     const [menuOpen, setMenuOpen] = useState(false);
     const [dropdownOpen, setDropdownOpen] = useState(false);
 
